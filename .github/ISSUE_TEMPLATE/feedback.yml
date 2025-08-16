@@ -1,0 +1,29 @@
+name: General Feedback
+description: Share thoughts, suggestions, or anything that doesn’t fit the other templates
+title: "[Feedback]: "
+labels: [feedback]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: "## We’d love to hear from you!"
+  - type: textarea
+    id: thoughts
+    attributes:
+      label: What’s on your mind?
+      description: Share your feedback, ideas, or general impressions.
+      placeholder: "I really like how..."
+  - type: dropdown
+    id: sentiment
+    attributes:
+      label: How are you feeling about this project?
+      options:
+        - 👍 Loving it
+        - 😐 It's okay
+        - 👎 Needs work
+  - type: input
+    id: contact
+    attributes:
+      label: Optional contact info
+      description: If you'd like a follow-up, leave your email or GitHub handle.
+      placeholder: "@yourhandle or your@email.com"
